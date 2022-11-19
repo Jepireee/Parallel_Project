@@ -83,7 +83,7 @@ void Calculate_and_Display_Input(QueueCustomer n, int index)
 	cout << "Customer #" << Customer_Number << endl;
 	cout << "No. of Cart Items: " << n.items << endl;
 	cout << "Preferred Packaging: " << n.Prefered_Packaging << endl;
-	cout << "Number of Box: " << n.Number_Packaging << endl;
+	cout << "Number of Packaging: " << n.Number_Packaging << endl;
 	
 	if(n.Cash_type == "e"){
 		cout << "Preferred Payment Method: " << n.Prefered_Payment << " (exact) " << endl;
